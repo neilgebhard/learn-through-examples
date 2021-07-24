@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/learn-through-examples/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/learn-through-examples/static/js/main.c2049e49.chunk.js",
+    "main.js.map": "/learn-through-examples/static/js/main.c2049e49.chunk.js.map",
+    "runtime-main.js": "/learn-through-examples/static/js/runtime-main.ebeb6100.js",
+    "runtime-main.js.map": "/learn-through-examples/static/js/runtime-main.ebeb6100.js.map",
+    "static/js/2.adb980fc.chunk.js": "/learn-through-examples/static/js/2.adb980fc.chunk.js",
+    "static/js/2.adb980fc.chunk.js.map": "/learn-through-examples/static/js/2.adb980fc.chunk.js.map",
+    "static/js/3.8ce6175d.chunk.js": "/learn-through-examples/static/js/3.8ce6175d.chunk.js",
+    "static/js/3.8ce6175d.chunk.js.map": "/learn-through-examples/static/js/3.8ce6175d.chunk.js.map",
+    "index.html": "/learn-through-examples/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/learn-through-examples/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.adb980fc.chunk.js.LICENSE.txt": "/learn-through-examples/static/js/2.adb980fc.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/learn-through-examples/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebeb6100.js",
+    "static/js/2.adb980fc.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.c2049e49.chunk.js"
+  ]
+}
