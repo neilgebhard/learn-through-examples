@@ -4,7 +4,7 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const UseStateExample = () => {
     const codeSnippet = `
-        function App() {
+        const App = () => {
             // the initial state is passed in as an argument
             // useState() returns the current state and a function that updates it
             const [count, setCount] = useState(0);
@@ -24,7 +24,7 @@ const UseStateExample = () => {
 
     return (
         <div>
-        <a href="https://reactjs.org/docs/hooks-state.html">useState()</a>
+        <p><a href="https://reactjs.org/docs/hooks-state.html">useState()</a></p>
         <SyntaxHighlighter language="javascript" style={docco}>
             {codeSnippet}
         </SyntaxHighlighter>
