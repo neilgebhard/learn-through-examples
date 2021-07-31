@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/learn-through-examples/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/learn-through-examples/static/js/main.573dc2ed.chunk.js",
-    "main.js.map": "/learn-through-examples/static/js/main.573dc2ed.chunk.js.map",
-    "runtime-main.js": "/learn-through-examples/static/js/runtime-main.3874c14c.js",
-    "runtime-main.js.map": "/learn-through-examples/static/js/runtime-main.3874c14c.js.map",
+    "main.css": "/learn-through-examples/static/css/main.d01e5e0a.chunk.css",
+    "main.js": "/learn-through-examples/static/js/main.a0c5f2a0.chunk.js",
+    "main.js.map": "/learn-through-examples/static/js/main.a0c5f2a0.chunk.js.map",
+    "runtime-main.js": "/learn-through-examples/static/js/runtime-main.61cd6e43.js",
+    "runtime-main.js.map": "/learn-through-examples/static/js/runtime-main.61cd6e43.js.map",
     "static/css/2.fb17aa6d.chunk.css": "/learn-through-examples/static/css/2.fb17aa6d.chunk.css",
-    "static/js/2.b172aad2.chunk.js": "/learn-through-examples/static/js/2.b172aad2.chunk.js",
-    "static/js/2.b172aad2.chunk.js.map": "/learn-through-examples/static/js/2.b172aad2.chunk.js.map",
-    "static/js/3.c63a508b.chunk.js": "/learn-through-examples/static/js/3.c63a508b.chunk.js",
-    "static/js/3.c63a508b.chunk.js.map": "/learn-through-examples/static/js/3.c63a508b.chunk.js.map",
+    "static/js/2.7bac0a3f.chunk.js": "/learn-through-examples/static/js/2.7bac0a3f.chunk.js",
+    "static/js/2.7bac0a3f.chunk.js.map": "/learn-through-examples/static/js/2.7bac0a3f.chunk.js.map",
+    "static/js/3.8b8374eb.chunk.js": "/learn-through-examples/static/js/3.8b8374eb.chunk.js",
+    "static/js/3.8b8374eb.chunk.js.map": "/learn-through-examples/static/js/3.8b8374eb.chunk.js.map",
     "index.html": "/learn-through-examples/index.html",
     "static/css/2.fb17aa6d.chunk.css.map": "/learn-through-examples/static/css/2.fb17aa6d.chunk.css.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/learn-through-examples/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.b172aad2.chunk.js.LICENSE.txt": "/learn-through-examples/static/js/2.b172aad2.chunk.js.LICENSE.txt"
+    "static/css/main.d01e5e0a.chunk.css.map": "/learn-through-examples/static/css/main.d01e5e0a.chunk.css.map",
+    "static/js/2.7bac0a3f.chunk.js.LICENSE.txt": "/learn-through-examples/static/js/2.7bac0a3f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3874c14c.js",
+    "static/js/runtime-main.61cd6e43.js",
     "static/css/2.fb17aa6d.chunk.css",
-    "static/js/2.b172aad2.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.573dc2ed.chunk.js"
+    "static/js/2.7bac0a3f.chunk.js",
+    "static/css/main.d01e5e0a.chunk.css",
+    "static/js/main.a0c5f2a0.chunk.js"
   ]
 }
