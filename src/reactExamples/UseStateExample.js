@@ -1,6 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
+import CodeSnippet from "../CodeSnippet";
 
 const UseStateExample = () => {
     const codeSnippet = `
@@ -23,12 +21,10 @@ const UseStateExample = () => {
     `;
 
     return (
-        <div>
-        <p><a href="https://reactjs.org/docs/hooks-state.html">useState()</a></p>
-        <SyntaxHighlighter language="javascript" style={docco}>
-            {codeSnippet}
-        </SyntaxHighlighter>
-        </div>
+        <>
+            <p><a href="https://reactjs.org/docs/hooks-state.html">useState()</a></p>
+            <CodeSnippet codeSnippet={codeSnippet} />
+        </>
     );
 };
 
