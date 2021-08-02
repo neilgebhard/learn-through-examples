@@ -2,7 +2,6 @@ import CodeSnippet from "../CodeSnippet";
 
 const UseEffectExample = () => {
   const codeSnippet = `
-      const [movie, setMovie] = useEffect({});
       // Passing an empty array as the second argument runs the effect only once
       useEffect(() => {
           fetch('http://example.com/random-movie.json')

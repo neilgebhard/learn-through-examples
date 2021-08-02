@@ -6,11 +6,9 @@ import UseEffectExample from "./reactExamples/UseEffectExample.js";
 const ReactExamples = () => {
   return (
     <>
-      <h3>Learn React Hooks Through Examples</h3>
-      <p>
-        This resource is perfect as a refresher for React concepts. The examples
-        can be used as boilerplate. They are simple, self-explanatory, and
-        minimalist by design.
+      <h3>React</h3>
+      <p className="text-secondary">
+        React examples designed as refreshers.
       </p>
       <UseStateExample />
       <JSXExample />
