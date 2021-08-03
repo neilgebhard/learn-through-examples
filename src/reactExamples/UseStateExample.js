@@ -1,7 +1,7 @@
 import CodeSnippet from "../CodeSnippet";
 
 const UseStateExample = () => {
-    const codeSnippet = `
+  const codeSnippet = `
         const App = () => {
             // the initial state is passed in as an argument
             // useState() returns the current state and a function that updates it
@@ -20,12 +20,14 @@ const UseStateExample = () => {
         };
     `;
 
-    return (
-        <>
-            <p><a href="https://reactjs.org/docs/hooks-state.html">useState()</a></p>
-            <CodeSnippet codeSnippet={codeSnippet} />
-        </>
-    );
+  return (
+    <>
+      <p>
+        <a href="https://reactjs.org/docs/hooks-state.html">useState()</a>
+      </p>
+      <CodeSnippet codeSnippet={codeSnippet} />
+    </>
+  );
 };
 
 export default UseStateExample;
