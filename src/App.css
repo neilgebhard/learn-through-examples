@@ -1,4 +1,4 @@
-.container {
-  max-width: 750px;
-  margin: 100px auto;
+html,
+body {
+  background: #f7f7f7 !important;
 }

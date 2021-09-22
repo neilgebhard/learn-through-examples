@@ -1,58 +1,44 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'semantic-ui-css/semantic.min.css'
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Home";
-import ReactExamples from "./ReactExamples";
-import VanillaJSExamples from "./VanillaJSExamples";
-import GitExamples from "./GitExamples";
-import JSRegexExamples from "./JSRegexExamples";
+import Layout from "./Layout/Layout";
+import GitExamples from "./Pages/GitExamples";
+import JSRegexExamples from "./Pages/JSRegexExamples";
+import ReactExamples from "./Pages/ReactExamples";
+import ReactTestingExamples from "./Pages/ReactTestingExamples";
+import JavascriptExamples from "./Pages/JavascriptExamples";
+import VSCodeExamples from "./Pages/VSCodeExamples";
 
 const App = () => {
   return (
-    <Container>
-      <Router>
-        <Navbar bg="light" variant="light">
-            <Navbar.Brand href="">Neil Gebhard</Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link href="">
-                <Link to="/learn-through-examples">Home</Link>
-              </Nav.Link>
-              <Nav.Link href="">
-                <Link to="/learn-through-examples/react">React</Link>
-              </Nav.Link>
-              <Nav.Link href="">
-                <Link to="/learn-through-examples/vanillajs">Vanilla Js</Link>
-              </Nav.Link>
-              <Nav.Link href="">
-                <Link to="/learn-through-examples/git">Git</Link>
-              </Nav.Link>
-              <Nav.Link href="">
-                <Link to="/learn-through-examples/js-regex">JS Regex</Link>
-              </Nav.Link>
-            </Nav>
-        </Navbar>
+    <Router>
+      <Layout>
         <Switch>
-          <Route exact path="/learn-through-examples">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/learn-through-examples/react">
+          <Route exact path="/react">
             <ReactExamples />
           </Route>
-          <Route path="/learn-through-examples/vanillajs">
-            <VanillaJSExamples />
+          <Route exact path="/react-testing">
+            <ReactTestingExamples />
           </Route>
-          <Route path="/learn-through-examples/git">
+          <Route exact path="/javascript">
+            <JavascriptExamples />
+          </Route>
+          <Route exact path="/git">
             <GitExamples />
           </Route>
-          <Route path="/learn-through-examples/js-regex">
+          <Route exact path="/js-regex">
             <JSRegexExamples />
           </Route>
+          <Route exact path="/vs-code">
+            <VSCodeExamples />
+          </Route>
         </Switch>
-      </Router>
-    </Container>
+      </Layout>
+    </Router>
   );
 };
 
